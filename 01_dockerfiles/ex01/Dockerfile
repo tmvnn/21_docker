@@ -1,6 +1,6 @@
 FROM debian
 
-MAINTAINER tmvn
+MAINTAINER lbellona
 
 WORKDIR /home/ts3
 

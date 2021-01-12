@@ -1,6 +1,7 @@
-FROM ubuntu # :16.04
+FROM ubuntu 
+# :16.04
 
-MAINTAINER tmvn
+MAINTAINER lbellona
 
 RUN apt-get update && apt-get upgrade -y && \
     apt-get install -y ca-certificates openssh-server wget postfix

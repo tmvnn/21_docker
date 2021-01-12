@@ -1,4 +1,7 @@
 FROM alpine
-MAINTAINER tmvn
+
+MAINTAINER lbellona
+
 RUN apk update && apk upgrade && apk add vim
+
 CMD ["vim"]
